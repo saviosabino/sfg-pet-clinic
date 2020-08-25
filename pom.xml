@@ -48,6 +48,5 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/saviosabino/sfg-pet-clinic.git</developerConnection>
-		<tag>sfg-pet-clinic-0.0.1</tag>
 	</scm>
 </project>
