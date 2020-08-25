@@ -71,6 +71,7 @@ local.properties
 /log/
 /target/
 */target/
+release.properties
 ######################
 # Gradle
 ######################
