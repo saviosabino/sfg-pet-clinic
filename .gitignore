@@ -1,36 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@saviosabino 
-springframeworkguru
-/
-sfg-pet-clinic
-22
-135
-917
-Code
-Issues
-37
-Pull requests
-19
-Actions
-Projects
-Wiki
-Security
-Insights
-sfg-pet-clinic/.gitignore
-@springframeworkguru
-springframeworkguru Initial Project Add
-Latest commit 2b4bcfe on 11 Jul 2018
- History
- 1 contributor
-141 lines (118 sloc)  1.83 KB
- 
 ######################
 # Project Specific
 ######################
@@ -102,7 +70,7 @@ local.properties
 ######################
 /log/
 /target/
-
+*/target/
 ######################
 # Gradle
 ######################
@@ -172,15 +140,4 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
