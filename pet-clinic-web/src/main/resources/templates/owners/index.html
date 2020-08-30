@@ -7,6 +7,21 @@
 <body>
 	<a href="/" >back</a><br>
 	<br>
+	
 	<h1 th:text="'List of Owners'">Owner Simple List</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th><th>First Name</th><th>Last Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="owner: ${owners}">
+				<td th:text="${owner.id}" > 55</td>
+				<td th:text="${owner.firstName}">XXX</td>
+				<td th:text="${owner.LastName}">zzz</td>
+			</tr>
+		</tbody>
+	</table>
 </body>
 </html>
