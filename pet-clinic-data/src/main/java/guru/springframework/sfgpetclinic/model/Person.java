@@ -5,20 +5,20 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class Person extends BaseEntity{
 
-	private String firstname;
-	private String lastname;
+	private String firstName;
+	private String lastName;
 	
 	public String getFirstName() {
-		return firstname;
+		return firstName;
 	}
-	public void setFirstName(String firstname) {
-		this.firstname = firstname;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 	public String getLastName() {
-		return lastname;
+		return lastName;
 	}
-	public void setLastName(String lastname) {
-		this.lastname = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	
 }
