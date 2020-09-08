@@ -2,10 +2,16 @@ package guru.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+
+@Entity
 public class Pet extends BaseEntity {
 
 	private String name;
 	private PetType petType;
+	
+	@ManyToOne
 	private Owner owner;
 	private LocalDate birthDate;
 	
