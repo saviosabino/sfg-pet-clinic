@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/saviosabino/sfg-pet-clinic.svg?style=svg)](https://circleci.com/gh/saviosabino/sfg-pet-clinic)
+[![CircleCI](https://circleci.com/gh/saviosabino/sfg-pet-clinic.svg?style=svg&circle-token=bf2241261c336f1b93095a93236f790efed91900)](https://circleci.com/gh/saviosabino/sfg-pet-clinic)
 
 # Spring Framework Guru Pet Clinic
 
