@@ -1,7 +1,7 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.verifyNoInteractions;
+import static org.mockito.Mockito.verifyZeroInteractions;
 import static org.mockito.Mockito.when;
 import static org.hamcrest.Matchers.*;
 import static org.mockito.ArgumentMatchers.anyLong;
@@ -61,7 +61,7 @@ class OwnerControllerTest {
 			.andExpect(view().name("owners/findOwners"))
 			.andExpect(model().attributeExists("owner"));
         
-        org.mockito.Mockito.verifyNoInteractions(ownerService);
+        verifyZeroInteractions(ownerService);
 	}
 	
 	@Test
@@ -104,7 +104,7 @@ class OwnerControllerTest {
                 .andExpect(view().name("owners/createOrUpdateOwnerForm"))
                 .andExpect(model().attributeExists("owner"));
 
-        verifyNoInteractions(ownerService);
+        verifyZeroInteractions(ownerService);
     }
 
     @Test
@@ -128,7 +128,7 @@ class OwnerControllerTest {
                 .andExpect(view().name("owners/createOrUpdateOwnerForm"))
                 .andExpect(model().attributeExists("owner"));
 
-        verifyNoInteractions(ownerService);
+        verifyZeroInteractions(ownerService);
     }
 
     @Test
