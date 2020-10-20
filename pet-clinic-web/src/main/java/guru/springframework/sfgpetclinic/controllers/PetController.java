@@ -56,8 +56,6 @@ public class PetController {
         dataBinder.setDisallowedFields("id");
     }
     
-    
-
     @GetMapping("/pets/new")
     public String initCreationForm(Owner owner, Model model) {
         Pet pet = new Pet();
